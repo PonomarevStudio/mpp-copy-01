@@ -13,7 +13,7 @@ module.exports = {
                 deliveryToken: process.env.CONTENTFUL_DELIVERY_TOKEN,
                 // previewToken is optional, if not specified will be automatically created and reused
                 previewToken: process.env.CONTENTFUL_PREVIEW_TOKEN,
-                spaceId: process.env.CONTENTFUL_SPACE_ID || '__contentful_space_id__',
+                spaceId: process.env.CONTENTFUL_SPACE_ID || 'wj8mtynrnoh2',
                 environment: process.env.CONTENTFUL_ENVIRONMENT || 'master',
                 preview: isDev,
                 watch: isDev
